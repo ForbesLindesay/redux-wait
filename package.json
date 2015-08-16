@@ -1,0 +1,26 @@
+{
+  "name": "redux-wait",
+  "version": "0.0.0",
+  "main": "./lib/index.js",
+  "description": "A helper to let you wait for redux actions to be processed in a universal app",
+  "keywords": [],
+  "dependencies": {
+    "babel": "^5.8.21",
+    "is-promise": "^2.0.0",
+    "promise": "^7.0.4"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir lib",
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForbesLindesay/redux-wait.git"
+  },
+  "author": "ForbesLindesay",
+  "license": "MIT"
+}
