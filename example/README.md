@@ -211,12 +211,12 @@ an element, but waits until there are no more pending actions before resolving.
   app.use(function (req, res, next) {
     if (req.path === '/favicon.ico') return next();
 -   res.sendFile(__dirname + '/index.html');
-+  let store = createStore();
-+  let element = <Root history={new MemoryHistory([req.url])} store={store} />;
-+  store.renderToString(React, element).done(function (html) {
-+    res.send(indexHtml.replace(/\{\{([a-z]*)\}\}/g, function (_, name) {
-+      if (name === 'content') return html;
-+      if (name === 'state') return stringify(store.getState());
++   let store = createStore();
++   let element = <Root history={new MemoryHistory([req.url])} store={store} />;
++   store.renderToString(React, element).done(function (html) {
++     res.send(indexHtml.replace(/\{\{([a-z]*)\}\}/g, function (_, name) {
++       if (name === 'content') return html;
++       if (name === 'state') return stringify(store.getState());
 +       return _;
 +     }));
 +   }, next);
