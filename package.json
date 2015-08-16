@@ -1,16 +1,15 @@
 {
   "name": "redux-wait",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/index.js",
   "description": "A helper to let you wait for redux actions to be processed in a universal app",
   "keywords": [],
   "dependencies": {
-    "babel": "^5.8.21",
     "is-promise": "^2.0.0",
     "promise": "^7.0.4"
   },
   "devDependencies": {
-    "mocha": "*"
+    "babel": "^5.8.21"
   },
   "scripts": {
     "prepublish": "npm run build",
