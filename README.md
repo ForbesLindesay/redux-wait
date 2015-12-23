@@ -3,7 +3,7 @@
 A helper to let you wait for redux actions to be processed in a universal app.
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/redux-wait/master.svg)](https://travis-ci.org/ForbesLindesay/redux-wait)
-[![Dependency Status](https://img.shields.io/gemnasium/ForbesLindesay/redux-wait.svg)](https://gemnasium.com/ForbesLindesay/redux-wait)
+[![Dependency Status](https://img.shields.io/david/ForbesLindesay/redux-wait.svg)](https://david-dm.org/ForbesLindesay/redux-wait)
 [![NPM version](https://img.shields.io/npm/v/redux-wait.svg)](https://www.npmjs.org/package/redux-wait)
 
 ## Installation
