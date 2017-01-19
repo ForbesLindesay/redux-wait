@@ -21,7 +21,7 @@ export default function reduxWait(...middlewares) {
               pending--;
               if (pending === 0 && onSuccess) onSuccess();
             }, function (err) {
-              if (onError) onError(err);
+              if (onFailure) onFailure(err);
               else throw err;
             });
           }

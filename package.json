@@ -1,6 +1,6 @@
 {
   "name": "redux-wait",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "main": "./lib/index.js",
   "description": "A helper to let you wait for redux actions to be processed in a universal app",
   "keywords": [],
