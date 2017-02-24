@@ -9,7 +9,7 @@
     "promise": "^7.0.4"
   },
   "devDependencies": {
-    "babel": "^5.8.21"
+    "babel": "^6.23.0"
   },
   "scripts": {
     "prepublish": "npm run build",
