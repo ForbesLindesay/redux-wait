@@ -1,5 +1,7 @@
 # redux-wait
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/redux-wait.svg)](https://greenkeeper.io/)
+
 A helper to let you wait for redux actions to be processed in a universal app.
 
 [![Build Status](https://img.shields.io/travis/ForbesLindesay/redux-wait/master.svg)](https://travis-ci.org/ForbesLindesay/redux-wait)
